@@ -6,6 +6,10 @@ public class CreditCardWithBonusCashBack extends CreditCard {
 
     private double bonusCashback;
 
+    public double getBonus() {
+        return bonusCashback;
+    }
+
     public CreditCardWithBonusCashBack(double creditLimit) {
         super(creditLimit);
     }

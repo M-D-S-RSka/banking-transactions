@@ -6,6 +6,10 @@ public abstract class BonusBankCard extends BankCard {
 
     protected double bonus;
 
+    public double getBonus() {
+        return bonus;
+    }
+
     public void getMoneyFromBonus() {
         balance += bonus;
         bonus = 0;

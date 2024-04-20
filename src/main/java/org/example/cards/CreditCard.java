@@ -5,6 +5,10 @@ public class CreditCard extends BankCard {
     private final double creditLimit;
     private double creditBalance;
 
+    public double getCreditBalance() {
+        return creditBalance;
+    }
+
     public CreditCard(double creditLimit) {
         this.creditLimit = creditLimit;
     }
